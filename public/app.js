@@ -14,14 +14,15 @@ function toggleMenu(){
 
 
 
+// Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAJ29MMeXXGiagELRKKPU3EvMKSFlqhXiI",
-    authDomain: "portfolio-df8e6.firebaseapp.com",
-    databaseURL: "https://portfolio-df8e6-default-rtdb.firebaseio.com",
-    projectId: "portfolio-df8e6",
-    storageBucket: "portfolio-df8e6.appspot.com",
-    messagingSenderId: "904770129751",
-    appId: "1:904770129751:web:13c72cde8f9a7f37783812"
+    apiKey: "AIzaSyAFVNIkEK4d4f3M0pKEtWfYw9r25hqxYFc",
+    authDomain: "portfolio-9b30e.firebaseapp.com",
+    databaseURL: "https://portfolio-9b30e-default-rtdb.firebaseio.com",
+    projectId: "portfolio-9b30e",
+    storageBucket: "portfolio-9b30e.appspot.com",
+    messagingSenderId: "334272288383",
+    appId: "1:334272288383:web:a7d5ec20555767d097514a"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
