@@ -168,13 +168,17 @@ img{
 }
 .work .content .workBx{
     padding: 20px;
-    background: #f7f7f7;
+    background: #e7e7e7;
     color: #111;
     width:48%;
     margin:10px;
     text-align: left;
     transition: 0.5s;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border: 1px solid #e7e7e7;
+}
+.work .content .workBx:hover{
+    border: 1px solid #2196f3;
 }
 .work .content .workBx h2{
     font-size: 20px;
@@ -188,27 +192,27 @@ img{
     color: #fff;
     background-color: #2195f383;
 }
-.experiense{
-    background: #f7f7f7;
+.experience{
+    background: #e7e7e7;
 }
-.experiense .content{
+.experience .content{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.experiense .content .experienseBx{
+.experience .content .experienceBx{
     max-width: calc(50% - 40px);
     padding: 60px 40px;
     margin: 20px;
     background: #2196f3;
 }
-.experiense .content .experienseBx p{
+.experience .content .experienceBx p{
     color: #fff;
     font-style: italic;
     font-size: 16px;
     font-weight: 300;
 }
-.experiense .content .experienseBx h3{
+.experience .content .experienceBx h3{
     margin-top: 40px;
     text-align: end;
     color: #fff;
@@ -216,7 +220,7 @@ img{
     font-size: 20px;
     line-height: 1em;
 }
-.experiense .content .experienseBx h3 span{
+.experience .content .experienceBx h3 span{
     font-size: 14px;
     font-weight: 400;
 }
@@ -391,13 +395,13 @@ img{
         width: 100%;
         padding: 10px;
     }
-    .experiense .content .experienseBx {
+    .experience .content .experienceBx {
         max-width: calc(100% - 20px);
         padding: 40px 20px;
         margin: 10px;
         background: #2196f3;
     }
-    .experiense .content .experienseBx h3 {
+    .experience .content .experienceBx h3 {
         margin-top: 20px;
     }
     .contactInfo {
