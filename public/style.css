@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
     /* scroll-behavior: smooth; */
 }
+.body{
+    background: url(images/banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index:-10;
+}
 header{
     display: flex;
     position: fixed;
@@ -93,6 +99,9 @@ section{
     letter-spacing: 2px;
     font-weight: 500;
 }
+.about{
+    background-color: #fff;
+}
 .heading{
     width: 100%;
     text-align: center;
@@ -120,7 +129,7 @@ img{
     max-width: 100%;
 }
 .Skills{
-    background: #111;
+    background: rgba(17, 17, 17, 0.521);
 }
 .heading.white{
     color: #fff;
@@ -161,6 +170,9 @@ img{
     text-align: left;
     transition: 0.5s;
 } */
+.work{
+    background-color: #fff;
+}
 .work .content{
     display: flex;
     justify-content: space-between;
